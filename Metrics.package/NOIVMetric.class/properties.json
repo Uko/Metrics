@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 12/8/2014 22:27",
 	"instvars" : [
 		 ],
-	"name" : "NOIvMetric",
+	"name" : "NOIVMetric",
 	"pools" : [
 		 ],
 	"super" : "ClassMetric",

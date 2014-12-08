@@ -1,4 +1,4 @@
-as yet unclassified
+complexity
 valueFor: anEntity
 
 	^ metrics inject: 0 into: [ :value :metric |

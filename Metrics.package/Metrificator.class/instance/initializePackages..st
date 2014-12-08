@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializePackages: aPackages
 
 	packages := aPackages

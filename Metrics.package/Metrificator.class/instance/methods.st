@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 methods
 
 	^ self packages flatCollect: #methods

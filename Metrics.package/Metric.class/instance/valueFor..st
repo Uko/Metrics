@@ -1,4 +1,4 @@
-as yet unclassified
+complexity
 valueFor: anEntity
 
 	"^ (anEntity perform: self metric) / (average + standardDeviation)"

@@ -1,0 +1,1 @@
+A generic metric class. Can calculate average and give judjement about specific ovject based on that

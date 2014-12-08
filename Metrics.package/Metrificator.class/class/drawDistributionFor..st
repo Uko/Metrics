@@ -1,4 +1,4 @@
-as yet unclassified
+graphs
 drawDistributionFor: aMetric
 	| methods b ds |
 	methods := aMetric population groupedBy: aMetric metric.
