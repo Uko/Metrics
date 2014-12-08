@@ -1,14 +1,14 @@
 {
 	"category" : "Metrics",
 	"classinstvars" : [
-		 ],
+		"default" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "NOIvMetric",
+		"metrics" ],
+	"name" : "ComboMetric",
 	"pools" : [
 		 ],
-	"super" : "ClassMetric",
+	"super" : "Object",
 	"type" : "normal" }

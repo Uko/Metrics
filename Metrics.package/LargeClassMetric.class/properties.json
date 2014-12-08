@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "NOIvMetric",
+	"name" : "LargeClassMetric",
 	"pools" : [
 		 ],
-	"super" : "ClassMetric",
+	"super" : "ComboMetric",
 	"type" : "normal" }
