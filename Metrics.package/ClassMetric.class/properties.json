@@ -1,0 +1,14 @@
+{
+	"category" : "Metrics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClassMetric",
+	"pools" : [
+		 ],
+	"super" : "Metric",
+	"type" : "normal" }

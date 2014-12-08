@@ -1,0 +1,16 @@
+{
+	"category" : "Metrics",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"population",
+		"standardDeviation",
+		"average" ],
+	"name" : "Metric",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
