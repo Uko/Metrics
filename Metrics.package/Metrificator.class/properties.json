@@ -1,0 +1,14 @@
+{
+	"category" : "Metrics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packages" ],
+	"name" : "Metrificator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 as yet unclassified
 population
 
-	^ RPackageOrganizer pragmaticMethods reject: #isAccessor
+	^ RPackageOrganizer default pragmaticMethods reject: #isAccessor
