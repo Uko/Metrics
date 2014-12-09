@@ -5,4 +5,4 @@ gtInspectorLargeClassIn: composite
 		title: (LargeClassMetric default niceValueFor: self) , ' Large';
 		when: [ :class | class isMeta not ];
 		display: [ :class | LargeClassMetric default metrics ];
-		format: [ :metric | (metric niceValueFor: self) , ' ', metric class name]
+		format: [ :metric | (metric niceValueFor: self) , ' ', metric name]

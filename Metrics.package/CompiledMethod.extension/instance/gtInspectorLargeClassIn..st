@@ -4,4 +4,4 @@ gtInspectorLargeClassIn: composite
 	composite list 
 		title: (LargeMethodMetric default niceValueFor: self) , ' Large';
 		display: [ :class | LargeMethodMetric default metrics ];
-		format: [ :metric | (metric niceValueFor: self) , ' ', metric class name]
+		format: [ :metric | (metric niceValueFor: self) , ' ', metric name]
