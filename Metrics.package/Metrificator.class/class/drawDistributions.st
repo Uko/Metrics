@@ -1,6 +1,6 @@
 graphs
 drawDistributions
-	ClassMetric allSubclasses,
-	MethodMetric allSubclasses
-		do: [ :m | self drawDistributionFor: m default ]
-		displayingProgress: [ :m | 'Plotting ', m name ]
+	self metrics
+		do: [ :m | self drawDistributionFor: m ]
+		displayingProgress: [ :m |
+			'Plotting ', m name ]

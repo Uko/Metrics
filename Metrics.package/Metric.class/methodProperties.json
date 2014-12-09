@@ -1,12 +1,17 @@
 {
 	"class" : {
 		"default" : "YuriyTymchuk 12/7/2014 18:20",
+		"resetDefault" : "YuriyTymchuk 12/9/2014 08:46",
 		"resetDefeult" : "YuriyTymchuk 12/7/2014 18:20" },
 	"instance" : {
+		"average" : "YuriyTymchuk 12/9/2014 08:11",
 		"initialize" : "YuriyTymchuk 12/7/2014 17:14",
 		"isHightFor:" : "YuriyTymchuk 12/7/2014 18:44",
 		"isVeryHightFor:" : "YuriyTymchuk 12/7/2014 18:49",
+		"membershipOf:" : "YuriyTymchuk 12/9/2014 10:07",
 		"metric" : "YuriyTymchuk 12/7/2014 17:14",
+		"name" : "YuriyTymchuk 12/9/2014 08:12",
 		"niceValueFor:" : "YuriyTymchuk 12/8/2014 10:38",
 		"population" : "YuriyTymchuk 12/7/2014 17:14",
-		"valueFor:" : "YuriyTymchuk 12/8/2014 17:55" } }
+		"standardDeviation" : "YuriyTymchuk 12/9/2014 08:11",
+		"valueFor:" : "YuriyTymchuk 12/9/2014 10:07" } }

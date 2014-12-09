@@ -1,0 +1,4 @@
+gt
+example
+
+	self inspect

@@ -1,4 +1,4 @@
 accessing
 population
 
-	^ Object withAllSubclasses 
+	^ RPackageOrganizer default packages flatCollect: #definedClasses
