@@ -10,12 +10,22 @@ drawDistributionFor: aMetric
 	ds := RTDataSet new.
 	"ds noDot."
 	ds points: methods.
-	ds connectColor: Color red.
+	ds connectColor: Color blue.
 	ds x: [ :el | el key ].
 	ds y: [ :el | el value size ].
 	b add: ds.
 	
-	b axisXWithNumberOfTicks: 10.
+	ds := RTDataSet new.
+	ds noDot.
+	ds points: methods.
+	ds connectColor: Color red.
+	ds x: [ :el | el key ].
+	ds y: [ :el | 
+		(el key gaussMF: aMetric standardDeviation c: aMetric average) *
+		(methods collect: [ :a | a value size ]) max ].
+	b add: ds.
+	
+	b axisXWithNumberOfTicks: 5.
 	b axisYWithNumberOfTicks: 5.
 	
 	b build.
