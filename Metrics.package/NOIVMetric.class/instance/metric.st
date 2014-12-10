@@ -1,4 +1,4 @@
 metric relared
 metric
 
-	^ #numberOfInstanceVariables
+	^ [ :class | class instVarNames size ]

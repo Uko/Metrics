@@ -3,4 +3,4 @@ isHightFor: anEntity
 
 	
 
-	^ (anEntity perform: self metric) between: average and: average + standardDeviation
+	^ (self metric value: anEntity) between: average and: average + standardDeviation

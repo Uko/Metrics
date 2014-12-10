@@ -1,4 +1,4 @@
 metric relared
 metric
 
-	^ #numberOfMethods
+	^ [ :class | class localMethods size ]

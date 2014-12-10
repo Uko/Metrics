@@ -3,4 +3,4 @@ isVeryHightFor: anEntity
 
 	
 
-	^ (anEntity perform: self metric) > (average + standardDeviation)
+	^ (self metric value: anEntity) > (average + standardDeviation)

@@ -21,7 +21,17 @@ drawDistributionFor: aMetric
 	ds connectColor: Color red.
 	ds x: [ :el | el key ].
 	ds y: [ :el | 
-		(el key gaussMF: aMetric standardDeviation c: aMetric average) *
+		(aMetric valueFor: el value anyOne) *
+		(methods collect: [ :a | a value size ]) max ].
+	b add: ds.
+
+	ds := RTDataSet new.
+	ds noDot.
+	ds points: methods.
+	ds connectColor: Color red muchLighter.
+	ds x: [ :el | el key ].
+	ds y: [ :el | 
+		(aMetric highValueFor: el value anyOne) *
 		(methods collect: [ :a | a value size ]) max ].
 	b add: ds.
 	
