@@ -1,4 +1,7 @@
 accessing
 population
 
-	^ RPackageOrganizer default pragmaticMethods reject: #isAccessor
+	^ ((RPackageOrganizer default
+		packagesFromUrl:'http://smalltalkhub.com/mc/Pharo/Pharo40/main')
+			flatCollect: #methods)
+				reject: #isAccessor

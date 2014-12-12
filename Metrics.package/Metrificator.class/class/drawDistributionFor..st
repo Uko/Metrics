@@ -35,8 +35,8 @@ drawDistributionFor: aMetric
 		(methods collect: [ :a | a value size ]) max ].
 	b add: ds.
 	
-	b axisXWithNumberOfTicks: 5.
-	b axisYWithNumberOfTicks: 5.
+	b axisX.
+	b axisY.
 	
 	b build.
 	
